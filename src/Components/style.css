@@ -1,0 +1,46 @@
+
+
+
+.login-container {
+    background-image: url('https://mapandfire.com/wp-content/uploads/2021/09/netflix-brand-hero-image.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container {
+    color: white;
+    margin: auto;
+    width: 25%;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 5;
+    text-align: left;
+}
+
+.input {
+    background-color: rgb(62, 62, 62);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.help-text {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.help-text-light {
+    color: grey;
+    font-size: 13px;
+}
+
+.gradient-overlay {
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 100vh;
+    padding: 150px 0px;
+    align-items: center;
+    justify-content: center;
+}
