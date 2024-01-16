@@ -1,3 +1,19 @@
+I'm thrilled to share a project that is developed using React Js, and Redux, and Firebase.
+
+#Tech Stack: 
+Front-end Framework: React Js
+Styling Framework: Bootstrap
+Authentication: Firebase
+State Management: Redux
+
+#Features: 
+Form Handling / Validation (Sign in/Sign Up)
+Authentication using the Firebase API
+Displaying the Movie Cards from TMDB movies list API
+Storing user Details and Movie details to Redux Store.
+Responsiveness across all devices.
+
+
 - Create React App
 - Configured Bootstrap
 - Header
@@ -28,22 +44,3 @@
 - GPT search bar
 - multi-language feature in GPT search page
 - Integrate GPT APIs
-
-
-
-
-
-#Features
-- Login/SignUp
-      - Sign In / Sign Up Form 
-      - redirect to Browser page
-- Browse (after authentication)
-      - Header
-      - Main movie
-         - Trailer in background
-         - Title & Description
-         - MovieSuggestions
-               - MovieLists * N
-Netflix GPT
-         - Search bar
-         - Movie Suggestions
