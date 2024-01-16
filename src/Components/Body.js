@@ -1,18 +1,19 @@
-import React from 'react'
-import Header from './Header'
+import React, { useEffect } from 'react';
 import SignIn from './SignIn'
 import Browse from './Browse';
 import {RouterProvider, createBrowserRouter} from 'react-router-dom';
 
 
+
 const Body = () => {
+
     const appRouter = createBrowserRouter([
         {
             path: '/',
             element: <SignIn/>
         },
         {
-            path: '/broswer',
+            path: '/browser',
             element: <Browse />
         },
         {
@@ -22,10 +23,11 @@ const Body = () => {
     ]);
 
 
+
+
   return (
     <>
-    <Header />
-      <RouterProvider router={appRouter} />
+    <RouterProvider router={appRouter} />
     </>
   )
 }
