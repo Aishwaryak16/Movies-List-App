@@ -1,5 +1,7 @@
 I'm thrilled to share a project that is developed using React Js, and Redux, and Firebase.
 
+Deployed Link - https://videos-listing-app.netlify.app/
+
 #Tech Stack: 
 Front-end Framework: React Js
 Styling Framework: Bootstrap
